@@ -60,19 +60,21 @@ const generateMarkdown = require('./utils/generateMarkdown')
 
 
 //function to write README file
-function writeToFile(fileName, response) {}
+function writeToFile(fileName, response) {
 fs.writeFile(fileName, response, (err) => {
     err ? console.log(err) : console.log("Your README has been generated!")
 })
-
+}
 
 
 
 //function to initialize app
 function init() {
     inquirer
-    .promp(questions)
-    .then((Response) => {
+    .prompt(questions)
+    .then((response) => {
+    const fileName = "newREADME.md"
+    writeToFile(fileName, JSON.stringify(response))
     })
 }
 
