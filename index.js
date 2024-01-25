@@ -1,11 +1,11 @@
-// TODO: Include packages needed for this application
+//This includes the required packges for the application
 const inquirer = require('inquirer')
 const fs = require('fs')
+const generateMarkdown = require('./utils/generateMarkdown')
+const util = require('util')
 
-
-// TODO: Create an array of questions for user input
-inquirer
-    .prompt([
+//array of questions for user input
+    const questions = [
         {
             type: "input",
             message: "What is your project title?",
@@ -15,16 +15,7 @@ inquirer
             type: "input",
             message: "Provide a description of your project",
             name: "description",
-        },
-        {
-            type: "input",
-            message: "What is your github username?",
-            name: "user",
-        },
-        {
-            type: "input",
-            message: "What is your email address?",
-            name: "email",
+            
         },
         {
             type: "input",
@@ -37,9 +28,16 @@ inquirer
             name: "usage",
         },
         {
+            type: "list",
+            message: "Which license will you use?",
+            choices: ["Apache", "MIT", "ISC"],
+            name: "license",
+        },
+        {
             type: "input",
             message: "Provide any contribution guidelines",
             name: "contribution",
+            
         },
         {
             type: "input",
@@ -47,18 +45,41 @@ inquirer
             name: "test",
         },
         {
-            type: "list",
-            message: "Which license will you use?",
-            name: "license",
+            type: "input",
+            message: "PLACEHOLDER TEXT",
+            name: "questions",
+        },
+        {
+            type: "input",
+            message: "What is your github username?",
+            name: "user",
+        },
+        {
+            type: "input",
+            message: "What is your email address?",
+            name: "email",
         },
 
-    ])
+    ]
 
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+//function to write README file
+function writeToFile(fileName, response) {
+const readMeContent = generateMarkdown(response)
+console.log(readMeContent)
+fs.writeFile(fileName, readMeContent, (err) => {
+    err ? console.log(err) : console.log("Your README has been generated!")
+})
+}
 
-// TODO: Create a function to initialize app
-function init() {}
+//function to initialize app
+function init() {
+    inquirer
+    .prompt(questions)
+    .then((response) => {
+    const fileName = "newREADME.md"
+    writeToFile(fileName, response)
+    })
+}
 
 // Function call to initialize app
 init();
