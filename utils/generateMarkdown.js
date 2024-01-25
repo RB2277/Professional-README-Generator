@@ -12,36 +12,47 @@ function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title}
-
-  # <Your-Project-Title>
+  return `
+ # ${data.title}
 
 ## Description
 
+${data.description}
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
 
 ## Installation
 
+${data.instructions}
 
 ## Usage
 
-
-## Credits
-
+${data.usage}
 
 ## License
 
 The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
 
 
-## Features
-
-
 ## How to Contribute
 
+${data.contribution}
 
 ## Tests
 
+${data.test}
 
+## Questions
+
+${data.questions}
+
+${data.user}
+${data.email}
 
 `;
 }

@@ -14,16 +14,7 @@ const generateMarkdown = require('./utils/generateMarkdown')
             type: "input",
             message: "Provide a description of your project",
             name: "description",
-        },
-        {
-            type: "input",
-            message: "What is your github username?",
-            name: "user",
-        },
-        {
-            type: "input",
-            message: "What is your email address?",
-            name: "email",
+            
         },
         {
             type: "input",
@@ -36,9 +27,16 @@ const generateMarkdown = require('./utils/generateMarkdown')
             name: "usage",
         },
         {
+            type: "list",
+            message: "Which license will you use?",
+            choices: ["Apache", "MIT", "ISC"],
+            name: "license",
+        },
+        {
             type: "input",
             message: "Provide any contribution guidelines",
             name: "contribution",
+            
         },
         {
             type: "input",
@@ -46,11 +44,21 @@ const generateMarkdown = require('./utils/generateMarkdown')
             name: "test",
         },
         {
-            type: "list",
-            message: "Which license will you use?",
-            choices: ["Apache", "MIT", "ISC"],
-            name: "license",
+            type: "input",
+            message: "PLACEHOLDER TEXT",
+            name: "questions",
         },
+        {
+            type: "input",
+            message: "What is your github username?",
+            name: "user",
+        },
+        {
+            type: "input",
+            message: "What is your email address?",
+            name: "email",
+        },
+
     ]
 
 //     .then((Response) => {
