@@ -20,7 +20,7 @@ Clone the repository. Run npm install within the console to install the correct 
 
 ## Usage
 
-See this video link for a video demonstration on how to use the app.
+See the example screenshot
 
 ![Example Image of the site](./assets/images/exampleImage.png)
 
