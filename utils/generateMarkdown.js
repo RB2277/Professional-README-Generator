@@ -95,8 +95,8 @@ ${response.test}
 
 ${response.questions}
 
-${response.user}
-${response.email}
+Github.com/${response.user}
+Reach me via email at ${response.email}
 
 `;
 }
