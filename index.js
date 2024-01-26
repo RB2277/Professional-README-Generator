@@ -2,7 +2,7 @@
 const inquirer = require('inquirer')
 const fs = require('fs')
 const generateMarkdown = require('./utils/generateMarkdown')
-const util = require('util')
+
 
 //array of questions for user input
     const questions = [
@@ -30,7 +30,7 @@ const util = require('util')
         {
             type: "list",
             message: "Which license will you use?",
-            choices: ["Apache", "MIT", "ISC"],
+            choices: ["MIT", "Apache", "ISC", "No license"],
             name: "license",
         },
         {
@@ -46,7 +46,7 @@ const util = require('util')
         },
         {
             type: "input",
-            message: "PLACEHOLDER TEXT",
+            message: "Write if the users may reach out to you with questions. You can provide your username and email in the following prompts",
             name: "questions",
         },
         {
@@ -61,6 +61,7 @@ const util = require('util')
         },
 
     ]
+
 
 //function to write README file
 function writeToFile(fileName, response) {
