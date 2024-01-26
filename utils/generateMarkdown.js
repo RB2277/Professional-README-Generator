@@ -68,8 +68,10 @@ ${response.description}
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Credits](#credits)
 - [License](#license)
+- [Contribute](#How to Contribute)
+- [Tests](#Tests)
+- [Questions](#Questions)
 
 ## Installation
 
@@ -95,7 +97,8 @@ ${response.test}
 
 ${response.questions}
 
-Github.com/${response.user}
+https://github.com/${response.user}
+
 Reach me via email at ${response.email}
 
 `;

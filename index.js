@@ -35,13 +35,13 @@ const generateMarkdown = require('./utils/generateMarkdown')
         },
         {
             type: "input",
-            message: "Provide any contribution guidelines",
+            message: "Provide any contribution guidelines, or write N/A",
             name: "contribution",
             
         },
         {
             type: "input",
-            message: "Provide any test instructions",
+            message: "Provide any test instructions for the user to run, or write N/A",
             name: "test",
         },
         {
