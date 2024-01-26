@@ -57,7 +57,6 @@ function renderLicenseSection(license) {
 function generateMarkdown(response) {
   let generateLicense = renderLicenseSection(response.license)
   return `
-  l
  # ${response.title}
 
 ## Description
@@ -71,9 +70,9 @@ ${response.description}
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
-- [Contribute](#How to Contribute)
-- [Tests](#Tests)
-- [Questions](#Questions)
+- [Contribute](#contribute)
+- [Tests](#tests)
+- [Questions](#questions)
 
 ## Installation
 
@@ -87,7 +86,7 @@ ${response.usage}
 
 ${generateLicense ? `This project is licensed under the ${response.license} license.  License link: ${renderLicenseLink(response.license)}` : `N/A`}
 
-## How to Contribute
+## Contribute
 
 ${response.contribution}
 
