@@ -86,7 +86,7 @@ ${response.usage}
 
 ${generateLicense ? `This project is licensed under the ${response.license} license.  License link: ${renderLicenseLink(response.license)}` : `N/A`}
 
-## How to Contribute
+## Contribute
 
 ${response.contribution}
 
