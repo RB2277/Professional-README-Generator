@@ -1,4 +1,3 @@
-
  # README Generator
 
 ## Description
@@ -43,4 +42,3 @@ Feel free to reach out below with any questions
 https://github.com/rb2277
 
 Reach me via email at example@example.com
-
