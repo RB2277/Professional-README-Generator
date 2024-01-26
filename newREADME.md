@@ -1,43 +1,45 @@
-
- # README Generator
+ # f
 
 ## Description
 
-[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This is the example desc of a readme
+f
 
 ## Table of Contents
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Credits](#credits)
 - [License](#license)
+- [Contribute](#How to Contribute)
+- [Tests](#Tests)
+- [Questions](#Questions)
 
 ## Installation
 
-run npm i, then use node index.js
+f
 
 ## Usage
 
-see above
+f
 
 ## License
 
-This project is licensed under the ISC license. License link: https://opensource.org/license/isc-license-txt/
+This project is licensed under the MIT license.  License link: https://opensource.org/license/mit/
 
 ## How to Contribute
 
-none
+f
 
 ## Tests
 
-lorem
+f
 
 ## Questions
 
-Feel free to reach out to me with any additional questions you have regarding this project.
+f
 
-Github.com/rb2277
-Reach me via email at jsriley24505@gmail.com
+https://github.com/f
+
+Reach me via email at f
 
