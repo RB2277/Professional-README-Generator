@@ -57,7 +57,6 @@ function renderLicenseSection(license) {
 function generateMarkdown(response) {
   let generateLicense = renderLicenseSection(response.license)
   return `
-  l
  # ${response.title}
 
 ## Description
@@ -71,9 +70,9 @@ ${response.description}
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
-- [Contribute](#How to Contribute)
-- [Tests](#Tests)
-- [Questions](#Questions)
+- [Contribute](#contribute)
+- [Tests](#tests)
+- [Questions](#questions)
 
 ## Installation
 
