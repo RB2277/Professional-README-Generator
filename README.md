@@ -11,7 +11,6 @@ This app is used to generate a professional README by using node within the cons
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Credits](#credits)
 - [License](#license)
 - [Questions](#questions)
 
@@ -26,14 +25,6 @@ See this video link for a video demonstration on how to use the app.
 ## License
 
 This project is licensed under the MIT license. License link: https://opensource.org/license/mit/
-
-## How to Contribute
-
-N/A
-
-## Tests
-
-N/A
 
 ## Questions
 
