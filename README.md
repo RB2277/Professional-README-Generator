@@ -22,6 +22,8 @@ Clone the repository. Run npm install within the console to install the correct 
 
 See this video link for a video demonstration on how to use the app.
 
+![Example Image of the site](./assets/images/exampleImage.png)
+
 ## License
 
 This project is licensed under the MIT license. License link: https://opensource.org/license/mit/
@@ -30,6 +32,7 @@ This project is licensed under the MIT license. License link: https://opensource
 
 You can see below to reach me for any questions you have regarding the project.
 
-@RB2277
-jsriley24505@gmail.com
+https://github.com/rb2277
+
+
 
