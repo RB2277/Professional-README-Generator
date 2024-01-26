@@ -1,11 +1,11 @@
 
- # README Generator
+ # read
 
 ## Description
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-A generator for README files
+
+read
 
 ## Table of Contents
 
@@ -18,29 +18,29 @@ A generator for README files
 
 ## Installation
 
-run npm install
+read
 
 ## Usage
 
-use node index.js within the console
+read
 
 ## License
 
-This project is licensed under the MIT license.  License link: https://opensource.org/license/mit/
+N/A
 
 ## Contribute
 
-N/A
+read
 
 ## Tests
 
-N/A
+read
 
 ## Questions
 
-Feel free to reach out below with any questions
+read
 
-https://github.com/rb2277
+https://github.com/read
 
-Reach me via email at example@example.com
+Reach me via email at read
 

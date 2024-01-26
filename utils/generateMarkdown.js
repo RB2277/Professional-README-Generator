@@ -1,5 +1,4 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
+//Retrieves the correct license badge based off of user choice
 function renderLicenseBadge(license) {
   if(license === "No license") {
     var emptyString = ''
@@ -16,8 +15,7 @@ function renderLicenseBadge(license) {
   }
 }
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
+//Retrieves the correct license link based off of user choice
 function renderLicenseLink(license) {
   if(license === "No license") {
     var emptyString = ''
@@ -35,25 +33,16 @@ function renderLicenseLink(license) {
 
 }
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
+//Renders the license section of the README by being true or false based off of if a license was selected
 function renderLicenseSection(license) {
   if(license === "No license") {
-      var emptyString = ''
-      return emptyString
-    } else if(license === "MIT") {
-      var MitLink = "https://opensource.org/license/mit/"
-      return MitLink
-    } else if (license === "Apache") {
-      var ApacheLink = "https://www.apache.org/licenses/LICENSE-2.0"
-      return ApacheLink
+      return false
     } else {
-      var IcsLink = "https://opensource.org/license/isc-license-txt/"
-      return IcsLink
+      return true
     }
 }
 
-// TODO: Create a function to generate markdown for README
+//Function that generates the markdown with the correct user choices
 function generateMarkdown(response) {
   let generateLicense = renderLicenseSection(response.license)
   return `
@@ -84,7 +73,7 @@ ${response.usage}
 
 ## License
 
-${generateLicense ? `This project is licensed under the ${response.license} license.  License link: ${renderLicenseLink(response.license)}` : `N/A`}
+${generateLicense ? `This project is licensed under the ${response.license} license. License link: ${renderLicenseLink(response.license)}` : `N/A`}
 
 ## Contribute
 
@@ -105,4 +94,5 @@ Reach me via email at ${response.email}
 `;
 }
 
+//Exports the generatemarkdown.js file to be able to be used within the index.js file
 module.exports = generateMarkdown;
