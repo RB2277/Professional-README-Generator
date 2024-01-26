@@ -1,9 +1,11 @@
 
- # f
+ # README Generator
 
 ## Description
 
-f
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+This app is used to generate the READMEs of files all through the node console. 
 
 ## Table of Contents
 
@@ -14,29 +16,28 @@ f
 
 ## Installation
 
-f
+Clone the repository. Run npm install within the console to install the correct dependencies. Once that is done, you can run "node index.js" within the node console to initiate it
 
 ## Usage
 
-f
+See installation instructions
 
 ## License
 
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
-
+This project is licensed under the MIT license. License link: https://opensource.org/license/mit/
 
 ## How to Contribute
 
-f
+N/A
 
 ## Tests
 
-f
+N/A
 
 ## Questions
 
-f
+You can see below to reach me for any questions you have regarding the project.
 
-f
-f
+@RB2277
+jsriley24505@gmail.com
 
