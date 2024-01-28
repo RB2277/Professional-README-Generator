@@ -20,7 +20,9 @@ Clone the repository. Run npm install within the console to install the correct 
 
 ## Usage
 
-See the example screenshot
+For a walkthrough video on using the app, please visit this link! 
+
+https://drive.google.com/file/d/19Snp0RMicojSE-O3VoeRw-0TIP-0bwj5/view?usp=sharing
 
 ![Example Image of the site](./assets/images/exampleImage.png)
 
